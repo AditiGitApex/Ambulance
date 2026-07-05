@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['-', 'Emergency-Vehicles', 'Non-emergency']
+
+roboflow:
+  workspace: aditis-workspace-b2bsj
+  project: emergency-vehicles-detection-dr9k2-etdbw
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/aditis-workspace-b2bsj/emergency-vehicles-detection-dr9k2-etdbw/1

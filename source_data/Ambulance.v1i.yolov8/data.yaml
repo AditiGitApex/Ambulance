@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Ambulance', 'Normal Automobiles']
+
+roboflow:
+  workspace: aditis-workspace-b2bsj
+  project: ambulance-frjm1-yotah
+  version: 1
+  license: MIT
+  url: https://app.roboflow.com/aditis-workspace-b2bsj/ambulance-frjm1-yotah/1

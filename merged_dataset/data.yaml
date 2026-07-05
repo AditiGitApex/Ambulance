@@ -1,0 +1,6 @@
+path: E:/Ambulance/merged_dataset
+train: train/images
+val: valid/images
+
+nc: 2
+names: ['ambulance', 'non-ambulance']
